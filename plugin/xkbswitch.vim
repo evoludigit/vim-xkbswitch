@@ -181,13 +181,13 @@ fun! <SID>tr_load(file)
 endfun
 
 fun! <SID>tr_load_default()
-    let from = 'qwertyuiop[]asdfghjkl;''zxcvbnm,.`/'.
-                \ 'QWERTYUIOP{}ASDFGHJKL:"ZXCVBNM<>?~@#$^&|'
+    let from = '`1234567890-=qwertuiop[]sdfghjkl;''zxcvbnm,./'.
+               \ '~!@#$%^&*()_+QWERTYUIOP{}SDFGHJKL:"ZXCVBNM<>?'
     let g:XkbSwitchIMappingsTr = {
-                \ 'ru':
+                \ 'fr':
                 \ {'<': from,
-                \  '>': 'йцукенгшщзхъфывапролджэячсмитьбюё.'.
-                \       'ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ,Ё"№;:?/'},
+                \  '>': '$«»()@+-`/*=%bépoèvdljzwuie,ctsrnmàyx.k''qghf'.
+                \       '#1234567890°`BÉPOÈ!VDLJZWUIE;CTSRNMÀYX:K?QGHF'},
                 \ }
 endfun
 

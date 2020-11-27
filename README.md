@@ -1,4 +1,4 @@
-Vim-xkbswitch
+Vim-xkbswitch-bepo
 =============
 
 by Alexey Radkov and Dmitry Hrabrov a.k.a. DeXPeriX
